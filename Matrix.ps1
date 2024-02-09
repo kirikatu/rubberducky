@@ -5,6 +5,8 @@ color 2
 echo %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random%
 goto top
 "@
+mkdir C:\temp
+New-Item c:\temp\matrix.bat
 $batchFilePath = "c:\temp\matrix.bat"
 Set-Content -Path $batchFilePath -Value $batchContent
 

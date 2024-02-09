@@ -11,5 +11,6 @@ Set-Content -Path $batchFilePath -Value $batchContent
 $n=30
 while($n -ne 0){
 Start-Process -FilePath $batchFilePath
+$n= $n-1
 }
 

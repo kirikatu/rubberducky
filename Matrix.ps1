@@ -27,3 +27,21 @@ while($n -ne 0){
 Start-Process -FilePath C:\temp\Goose\GooseDesktop.exe
 $n= $n-1
 }
+
+Add-Type -AssemblyName System.Speech
+
+$text = "Bonjour, Vous avez insérer une clé USB non controlée. Civa va vous marave la gueule. votre pc s'autodétruira dans 10. 
+9.  
+8.  
+7.  
+6.  
+5.  
+4.  
+3.  
+2.  
+1."
+
+$speechSynthesizer = New-Object System.Speech.Synthesis.SpeechSynthesizer
+
+$speechSynthesizer.Speak($text)
+

@@ -30,7 +30,7 @@ $n= $n-1
 
 Add-Type -AssemblyName System.Speech
 
-$text = "Bonjour, Vous avez insérer une clé USB non controlée. Civa va vous marave la gueule. votre pc s'autodétruira dans 10. 
+$text = "Bonjour, Vous avez insérer une clé USB non controlée. Votre pc s'autodétruira dans 10. 
 9.  
 8.  
 7.  
